@@ -22,8 +22,8 @@ elif willekeur > nieuw and antwoord == "H":
      
 
 elif willekeur == nieuw:
-	print ("that sucks its the same")
-	print("game over")
+	print ("je hebt massel het is hetzelfde")
+	print("kijken of je der nog 1 kan?")
 		
 elif (willekeur < nieuw and antwoord == "H"):	
 	print("goedzo")
@@ -33,7 +33,7 @@ elif (willekeur > nieuw and antwoord == "L"):
 	print("goedzo")
 	print("kijken of je der nog 1 kan?")
 	
-while((willekeur > nieuw and antwoord == "L")or(willekeur < nieuw and antwoord == "H")):	
+while((willekeur > nieuw and antwoord == "L")or(willekeur < nieuw and antwoord == "H")or(willekeur == nieuw)):	
 	willekeur = random.randrange(1,11)
 	nieuw  = random.randrange(1,11) 
 	
@@ -56,8 +56,8 @@ while((willekeur > nieuw and antwoord == "L")or(willekeur < nieuw and antwoord =
      
 
 	elif willekeur == nieuw:
-		print ("that sucks its the same")
-		print("game over")
+		print ("je hebt massel het is hetzelfde")
+		print("kijken of je der nog 1 kan?")
 		
 	elif (willekeur < nieuw and antwoord == "H"):	
 		print("goedzo")
